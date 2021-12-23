@@ -40,4 +40,4 @@ Configurations can be found in the .env file (which should not be on git for pro
 - File size limit modifed to 1M for test purposes.
 
 # Design document
-...
+![alt text](https://github.com/ashaffir/sealights/blob/main/sealights.jpg)
