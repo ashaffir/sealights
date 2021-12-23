@@ -45,6 +45,7 @@ Configurations can be found in the .env file (which should not be on git for pro
 ## Todo:
 	- Instead of user queries, user Authentication information (registered users)
 	- Implement upload only file to an existing note
+    - Much more documentation...
 
 ## Assumptions:
 	- Users and report management is handled by other services and thus will not be tested here
