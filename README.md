@@ -1,24 +1,24 @@
 # Sealights home assignment
-# Tech  Stack
+## Tech  Stack
 * Django
 - Django Rest Framework
 
 * DB
 PostgreSQL
 
-# Running with Docker
+## Running with Docker
 1) Clone the repository
 2) from inside the project direectory run:
 
 docker-compose up -d --build
 
-# API Documentation
+## API Documentation
 http://localhost:8000/api-docs/
 
-## To access the endpoints, run request from Postman or other similar app
+### To access the endpoints, run request from Postman or other similar app
 
 
-# Running locally
+## Running locally
 1) Clone the repository
 2) From the project directory run:
 
@@ -28,16 +28,24 @@ python3 manage.py migrate
 
 python3 manage.py runserver
 
-# Testing only locally
+## Testing only locally
 Testing add and read notes, and conditions
 
 To run:
 python manage.py test
 
-## Configuration notes
+### Configuration notes
 Configurations can be found in the .env file (which should not be on git for production)
 
 - File size limit modifed to 1M for test purposes.
 
-# Design document
+## Design document
 ![alt text](https://github.com/ashaffir/sealights/blob/main/sealights.jpg)
+
+## Todo:
+	- Instead of user queries, user Authentication information (registered users)
+	- Implement upload only file to an existing note
+
+## Assumptions:
+	- Users and report management is handled by other services and thus will not be tested here
+
